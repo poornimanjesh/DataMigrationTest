@@ -22,7 +22,7 @@ public class App {
 
         HashMap<Integer,EmployeeDto> employeeDToList = CsvFileReader.readFromFile("src/main/resources/EmployeeRecords.csv");
 
-        System.out.println(employeeDToList.size() + " Size of unique employees");
+        System.out.println(employeeDToList.size() + " Size of unique employees.");
 
     }
 }
